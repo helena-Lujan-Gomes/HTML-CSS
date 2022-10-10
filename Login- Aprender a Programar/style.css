@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    background: url(codigo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+  
+  .titulo{
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #8A2BE2;
+  }
+  
+  .texto{
+    max-width: 350px;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .subtitulo{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  input{
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+    border-bottom: 1px solid black;
+   
+  }
+  
+  button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background-color: blueviolet;
+    border-radius: 5px;
+  }
+  
+  button:hover{
+  color:white;
+  background-color:background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   ;
+  }
