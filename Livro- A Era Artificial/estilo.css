@@ -1,54 +1,54 @@
 @charset "UTF-8";
 
-body{
+body {
     margin: 0;
 }
 
-div{
+div {
     background-color: #f5f5f5;
     padding: 50px;
     text-align: center;
     border-top: 1px solid #d5d5d5;
 }
 
-h1{
-    font-family:'Tahoma', sans-serif;
+h1 {
+    font-family: 'Tahoma', sans-serif;
     text-align: center;
-    margin-top:0; 
+    margin-top: 0;
 }
 
-h2{
+h2 {
     font-size: 24px;
-    font-family:'Tahoma', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     text-align: center;
 }
 
-h3{
-    font-family:'Tahoma', sans-serif;
+h3 {
+    font-family: 'Tahoma', sans-serif;
     text-align: center;
 }
 
-p{
+p {
     text-align: center;
     line-height: 28px;
-    font-family:'Tahoma', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     width: 930px;
     margin: 15px auto 30px auto;
 }
 
-span{
-    font-family:'Tahoma', sans-serif;
+span {
+    font-family: 'Tahoma', sans-serif;
     font-weight: bold;
 }
 
-img{
+img {
     width: 190px;
 }
 
 
-a{
+a {
     font-size: 14px;
-    font-family:'Tahoma', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     font-weight: bold;
     text-decoration: none;
     color: #ffffff;
@@ -56,4 +56,3 @@ a{
     padding: 10px 30px;
     border-radius: 25px;
 }
-
